@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float32-eps",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Difference between one and the smallest value greater than one that can be represented as a single-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
