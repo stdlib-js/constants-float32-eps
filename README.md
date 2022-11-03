@@ -50,7 +50,7 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 ## Usage
 
 ```javascript
-import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@deno/mod.js';
+import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.0.7-deno/mod.js';
 ```
 
 #### FLOAT32_EPS
@@ -77,7 +77,7 @@ import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@den
 import max from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-max@deno/mod.js';
 import float64ToFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@deno/mod.js';
+import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.0.7-deno/mod.js';
 
 var bool;
 var a;
