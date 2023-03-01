@@ -184,7 +184,7 @@ Macro for the difference between one and the smallest value greater than one tha
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float64/eps`][@stdlib/constants/float64/eps]</span><span class="delimiter">: </span><span class="description">difference between one and the smallest value greater than one that can be represented as a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/eps`][@stdlib/constants/float64/eps]</span><span class="delimiter">: </span><span class="description">difference between one and the smallest value greater than one that can be represented as a double-precision floating-point number.</span>
 
 </section>
 
