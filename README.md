@@ -65,6 +65,11 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 ## Usage
 
 ```javascript
+import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float32-eps/tags). For example,
+
+```javascript
 import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.1.0-esm/index.mjs';
 ```
 
@@ -97,7 +102,7 @@ import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm
 import max from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-max@esm/index.mjs';
 import float64ToFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.1.0-esm/index.mjs';
+import FLOAT32_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@esm/index.mjs';
 
 var bool;
 var a;
