@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float32-eps",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Difference between one and the smallest value greater than one that can be represented as a single-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -36,12 +36,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-float64-base-to-float32": "^0.0.7",
-    "@stdlib/utils-library-manifest": "^0.0.8"
+    "@stdlib/number-float64-base-to-float32": "^0.1.0",
+    "@stdlib/utils-library-manifest": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/math-base-special-abs": "^0.0.6",
-    "@stdlib/math-base-special-max": "^0.0.7",
+    "@stdlib/math-base-special-max": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.0.7",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
