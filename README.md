@@ -67,7 +67,7 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 To use in Observable,
 
 ```javascript
-FLOAT32_EPS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@umd/browser.js' )
+FLOAT32_EPS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -79,7 +79,7 @@ var FLOAT32_EPS = require( 'path/to/vendor/umd/constants-float32-eps/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -119,7 +119,7 @@ var bool = ( FLOAT32_EPS === 1.1920928955078125e-7 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-max@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
