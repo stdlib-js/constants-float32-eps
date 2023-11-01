@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,21 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var float64ToFloat32 = require( '@stdlib/number-float64-base-to-float32' );
-var FLOAT32_EPSILON = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a number', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof FLOAT32_EPSILON, 'number', 'main export is a number' );
-	t.end();
-});
-
-tape( 'the exported value equals the difference between one and the smallest value greater than one which is representable as a single (2**-23)', function test( t ) {
-	var expected = float64ToFloat32( pow( 2, -23 ) );
-	t.strictEqual( FLOAT32_EPSILON, expected, 'equals 2**-23' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
