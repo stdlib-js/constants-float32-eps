@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-22)
+## Unreleased (2026-01-30)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`9da756f`](https://github.com/stdlib-js/stdlib/commit/9da756fc7693aabf8ccb8e8af1a444372253f4f4) - **chore:** update test messages in `constants/float32` [(#6772)](https://github.com/stdlib-js/stdlib/pull/6772) _(by Harsh)_
+-   [`9da756f`](https://github.com/stdlib-js/stdlib/commit/9da756fc7693aabf8ccb8e8af1a444372253f4f4) - **chore:** update test messages in `constants/float32` [(#6772)](https://github.com/stdlib-js/stdlib/pull/6772) _(by Harsh Yadav)_
 
 </details>
 
@@ -26,7 +26,7 @@
 
 A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Harsh
+-   Harsh Yadav
 
 </section>
 
